@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <div class="keys">
+            <div data-key="82" class="key">
+                <kbd>R</kbd>
+                <span>Rock</span>
+            </div>
+            <div data-key="80" class="key">
+                    <kbd>P</kbd>
+                    <span>Paper</span>
+            </div>
+            <div data-key="83" class="key">
+                    <kbd>S</kbd>
+                    <span>Scissors</span>
+            </div>
+        </div>
+        
+        <div>
+            <span id="scoreTxt">Score : </span>
+        </div>
+
+        <div class="result">
+            <p id="resultBox"></p>
+        </div>
+
+        <audio data-key="82" src="sounds/rock.wav"></audio>
+        <audio data-key="80" src="sounds/paper.wav"></audio>
+        <audio data-key="83" src="sounds/scissors.wav"></audio>
         <script type="text/javascript" src="F:\WEB DEVELOPMENT\the-odin-project\Rock-Paper-Scissors\main.js">
         </script>
 

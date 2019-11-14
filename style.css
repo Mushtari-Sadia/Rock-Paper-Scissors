@@ -1,0 +1,64 @@
+html {
+    background: url(https://cdn.wallpapersafari.com/51/5/v5Gn3R.png) fixed;
+    background-size: cover;
+}
+
+.keys {
+    display : flex;
+    flex : 1;
+    min-height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.result {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    min-height: 8vh;
+    min-width: 30vw;
+    border: .4rem solid #add8e6;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    background: #5f9ea0;
+    text-shadow: 0 0 .5rem #003939;
+}
+
+#scoreTxt {
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: #5f9ea0;
+    text-shadow: 0 0 .5rem #003939;
+    border: .1rem solid #add8e6;
+    border-radius: .1rem;
+}
+
+.key {
+    border: .4rem solid #add8e6;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: #5f9ea0;
+    text-shadow: 0 0 .5rem #003939;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #adbce6;
+    box-shadow: 0 0 1rem #adbce6;
+  }
+kbd {
+    display: block;
+    font-size: 4rem;
+  }
